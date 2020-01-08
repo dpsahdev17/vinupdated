@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+  <title>Vinsol</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+  <script>  
+    $(document).ready(function(){
+      $("#show").click(function(){
+        $("#rightNav").toggleClass("width-100");
+      });
+      $("#hide").click(function(){
+        $("#rightNav").toggleClass("width-100");
+      });
+    });
+  </script> 
+
+  <script>
+    ///script starting for dropdown project list///
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    ///script starting for dropdown project list///
+  </script>
+</head>
+
+<body>
+
+  <div class="container mobi-container-main my-73">
+    <header class="header">
+      <div class="logo">
+        <img src="images/logo.png" class="desklogo">
+        <img src="images/mobilelogo.png" class="mobilogo">
+      </div><!--end of logo-->
+
+      <i class="fa fa-bars right-bar" id="show"></i>
+
+      <nav id="rightNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" id="hide">
+          &times;
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#;" class="active fontreg">Success Stories</a>
+          </li>
+          <li class="nav-item">
+            <a href="#;" class="fontreg">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#;" class="fontreg">Our Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#;" class="fontreg">Contact</a>
+          </li>
+        </ul>
+      </nav><!--end of navbar-->
+    </header><!--end of header-->
+
+    <div class="banner">
+      <div class="banner-img">
+        <div class="ban-img-hold">
+          <img src="images/circle.png" class="img-responsive">
+        </div>
+        <span class="communication fontreg">communicate</span>
+        <span class="adapt fontreg">adapt</span>
+        <span class="sustain fontreg">sustain</span>
+      </div><!--banner-img-->
+      <div class="banner-content">
+        <p class="fontbold">At Vinsol, we follow an iterative agile methodology that allows us to maintain constant communication, quick adaption, and long-term sustainability.
+        </p>
+      </div><!--end of banner-content-->
+    </div><!--end of banner-->
+
+    <!--starting of project-->
+    <div class="project">
+      <button class="dropbtn" onclick="myFunction()">VIEW ALL PROJECTS
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="#;" class="dropdown-link">iOS</a>
+        <a href="#;" class="dropdown-link">ANDROID</a>
+        <a href="#;" class="dropdown-link">WINDOWS</a>
+        <a href="#;" class="dropdown-link">RAILS</a>
+      </div>
+    </div>
+    <!--end of project-->
+
+    <!--starting of product row-->
+
+    <div class="row">
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic1.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">Disney Pix</h3>
+            <p class="para-title fontreg">
+              Integrating an iPad app with hardware.
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic2.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">Disney Holiday</h3>
+            <p class="para-title fontreg">
+              Building a scaleable card-making system.
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic3.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">Open Table</h3>
+            <p class="para-title fontreg">
+              Building out a scaleable mobile platform
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic4.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">ideeli</h3>
+            <p class="para-title fontreg">
+              Offering daily flash sales to its members.
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic5.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">WeWork</h3>
+            <p class="para-title fontreg">
+              Integrating digital tools with a physical space.
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic6.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">Greylock Partners</h3>
+            <p class="para-title fontreg">
+            Building a custom CMS.</p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic7.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">DealDey</h3>
+            <p class="para-title fontreg">
+              Bringing coupons and deals to Nigeria.
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic8.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">Konga</h3>
+            <p class="para-title fontreg">
+              Bringing an e-commerce platform to Nigeria.
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+
+      <div class="col">
+        <a href="#;" class="col-link">
+          <div class="col-img">
+            <img src="images/pic9.png" class="img-responsive img-border width-100">
+          </div>
+          <div class="img-content">
+            <h3 class="heading-title fontbold">Rosh Review</h3>
+            <p class="para-title fontreg">
+              providing dynamic learning tools for students.
+            </p>
+          </div>
+        </a>
+      </div><!--col-->
+    </div><!--end of product row -->
+  </div><!--end of container-->
+
+  <!--starting of footer-->
+  <footer class="footer-bg">
+    <div class="container mobi-container">
+      <div class="footer-row">
+        <div class="footer-col-wrap">
+          <div class="footer-col pt">
+            <h5 class="footer-title fontreg d-none">FLICKR</h5>
+            <div class="footer-img">
+              <img src="images/footer-img2.png" class="footer-pic1 img-responsive">
+              <img src="images/footer-img1.png" class="footer-pic img-responsive">
+            </div><!--footer-img-->
+
+            <p class="pt-13">
+              <a href="#;" class="more fontreg">SEE MORE
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            </p>
+          </div><!--end of footer-col1-->
+          <div class="footer-col width">
+            <h5 class="footer-title fontreg">TWITTER</h5>
+            <div class="footer-para">
+              <p class="border-b fontreg pb-35 font">
+                GenuineSEOnet Android Games are Easier with a PS3 Controller
+                <a href="#;" class="text-orange"> goo.gl/i2IUY via@the_vinsol 
+                </a>
+                9 HOURS AGO . 
+                <a href="#;" class="text-orange">REPLY</a>
+                <a href="#;" class="text-orange">RETWEET</a>
+                <a href="#;" class="text-orange">FAVORITE</a>
+              </p>
+            </div><!--end of footer-para-->
+            <div class="footer-para more-b">
+              <p class="border-b b-14 pt-26 pb-33 fontreg font">
+                <a href="#;" class="text-orange">the_vinsol ow.ly/fsK7Q </a>
+                Hukkster and trunqit never miss a sale for a coveted product 1 DAY AGO . 
+                <a href="#;" class="text-orange">REPLY</a> . 
+                <a href="#;" class="text-orange">RETWEET</a> . 
+                <a href="#;" class="text-orange">FAVOURITE</a>
+              </p>
+            </div><!--end of footer-para-->
+            <p class="pt-15">
+              <a href="#;" class="more fontreg">FOLLOW US
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            </p>
+          </div><!--end of footer-col2-->
+        </div><!--end of footer-col-wrap-->
+
+        <div class="info">
+          <div class="contact">
+            <h2 class="fontreg">Get in Touch!</h2>
+            <a href="#;" class="contact-link">SCHEDULE A TALK 
+              <i class="fa fa-angle-right fa-1x" aria-hidden="true">
+              </i>
+            </a>
+            <div class="contact-num">
+              <a href="tel:0112930281" class="fontreg contact-num-link">INDIA / 
+                <span class="fontbold">+011 293 0281</span>
+              </a><br>
+              <a href="tel:0132821239" class="fontreg contact-num-link">USA / 
+                <span class="fontbold">+013 283 1239</span>
+              </a><br>
+              <a href="mailto:info@vinsol.com" class="fontreg contact-num-link">
+                <span class="fontbold">info@vinsol.com</span>
+              </a>
+            </div><!--end of contact-num-->
+            <div class="icon">
+              <a href="#;" class="icon-link">
+                <i class="fa fa-facebook facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#;" class="icon-link">
+                <i class="fa fa-twitter twitter" aria-hidden="true">
+                </i>
+              </a>
+              <a href="#;" class="icon-link">
+                <i class="fa fa-rss rss" aria-hidden="true"></i>
+              </a>
+            </div><!--end of icon-->
+          </div><!--end of contact-->
+        </div><!--end of info-->
+      </div><!--end of footer-row-->
+    </div><!--end of container-->
+  </footer><!--end of footer tag-->
+
+  <!--end of footer-->
+
+</body>
+</html>
